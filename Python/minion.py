@@ -10,14 +10,15 @@ def minion_game(string):
             player2 += (str_len)-i
 
     if player1 > player2:
-        print("Kevin", player1)
+        print("Kevin N Score:", player1)
     elif player1 < player2:
-        print("Stuart",player2)
+        print("Stuart WIN Score:",player2)
     elif player1 == player2:
         print("Draw")
     else :
         print("Draw")
 
 if __name__ == '__main__':
+    print("PLEASE INPUT WORDS :")
     s = input()
     minion_game(s)
